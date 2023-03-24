@@ -63,10 +63,11 @@ body {
     font-weight: 400;
 }
 
-.visit-btn-1729:hover{
+.visit-btn-1729:hover {
     background-color: #9032cd;
     transition: ease-in .6s;
 }
+
 
 /* footer  */
 .footer-social-1729 li {
@@ -82,4 +83,54 @@ body {
 .footer-social-1729 div a:hover {
     color: #9032cd !important;
     transition: ease-in-out .5s;
+}
+
+/* Table screen width */
+@media (min-width: 768px) and (max-width: 1023.99px) {
+    .myname {
+        font-size: 24px;
+    }
+
+    .webdev-1729 {
+        font-size: 25px;
+    }
+
+    .top-para-1729 {
+        font-size: 15px;
+    }
+
+    .hello-1729 {
+        font-size: 20px;
+    }
+
+    .visit-btn-1729 {
+        font-size: 11px;
+    }
+}
+
+/* Mobile screen width */
+@media (min-width: 320px) and (max-width: 500.99px) {
+    .myname {
+        font-size: 20px;
+    }
+
+    .webdev-1729 {
+        font-size: 25px;
+    }
+
+    .top-para-1729 {
+        font-size: 15px;
+    }
+
+    .hello-1729 {
+        font-size: 20px;
+    }
+
+    .visit-btn-1729 {
+        font-size: 10px;
+    }
+
+    .small-1729 {
+        width: 85% !important;
+    }
 }

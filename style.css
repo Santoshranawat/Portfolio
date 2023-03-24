@@ -1,30 +1,64 @@
-body{
+body {
     background-color: #f6f6f6;
+    color: rgb(0 0 0 / 55%);
 }
+
+.logo {
+    font-size: 40px;
+    font-weight: 900;
+    color: #9032cd !important;
+}
+
 .nav-link {
     color: rgba(0, 0, 0, .55);
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+    margin: 0px 10px;
 }
-.nav-item{
+
+.nav-link:hover {
+    color: #9032cd !important;
+
+}
+
+.active {
+    color: #9032cd !important;
+
+}
+
+.bi-chat-dots-fill {
+    color: #9032cd !important;
+
+}
+
+.bi-chat-dots-fill:hover {
+    color: rgba(59, 6, 42, 0.608) !important;
+    width: 30px;
+    height: 30px;
+    transition: ease-in-out .5s;
+}
+
+/* Mobile width style 
+ */
+.nav-item {
     list-style: none;
     text-align: center;
 }
 
-.nav-link:hover {
-    color: rgba(244, 13, 171, 0.608) !important;
-}
-.active{
-    color: rgba(244, 13, 171, 0.608) !important;
+/* section-one style  */
+
+.myname {
+    font-size: 35px;
+    font-weight: 800;
 }
 
-.bi-chat-dots-fill{
-    color: rgba(244, 13, 171, 0.608);
+.webdev-1729 {
+    font-size: 40px;
+    color: #9032cd;
 }
-.bi-chat-dots-fill:hover{
-    color: rgba(59, 6, 42, 0.608) !important;
-    width: 30px;
-    height:30px;
-    transition: ease-in-out .5s;
+
+.top-para-1729 {
+    font-size: 18px;
+    font-weight: 400;
 }

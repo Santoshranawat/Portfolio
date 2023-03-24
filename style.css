@@ -63,12 +63,23 @@ body {
     font-weight: 400;
 }
 
+.visit-btn-1729:hover{
+    background-color: #9032cd;
+    transition: ease-in .6s;
+}
+
 /* footer  */
-.footer-social-1729 li{
+.footer-social-1729 li {
     text-align: left;
 }
-.footer-social-1729 div a{
-  text-decoration: none;
-  color: rgb(0 0 0 / 55%);
-  /* font-size: 25px; */
+
+.footer-social-1729 div a {
+    text-decoration: none;
+    color: rgb(0 0 0 / 55%);
+    /* font-size: 25px; */
+}
+
+.footer-social-1729 div a:hover {
+    color: #9032cd !important;
+    transition: ease-in-out .5s;
 }

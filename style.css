@@ -1,14 +1,18 @@
 body{
     background-color: #f6f6f6;
 }
-.navbar-light .navbar-nav .nav-link {
+.nav-link {
     color: rgba(0, 0, 0, .55);
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 500;
 }
+.nav-item{
+    list-style: none;
+    text-align: center;
+}
 
-.navbar-light .navbar-nav .nav-link:hover {
+.nav-link:hover {
     color: rgba(244, 13, 171, 0.608);
 }
 .active{

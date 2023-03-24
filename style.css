@@ -13,7 +13,7 @@ body{
 }
 
 .nav-link:hover {
-    color: rgba(244, 13, 171, 0.608);
+    color: rgba(244, 13, 171, 0.608) !important;
 }
 .active{
     color: rgba(244, 13, 171, 0.608) !important;

@@ -1,8 +1,9 @@
 body {
-    background-color: #f6f6f6;
     color: rgb(0 0 0 / 55%);
 }
-
+.container{
+    max-width: 1200px !important;
+}
 .logo {
     font-size: 40px;
     font-weight: 900;
@@ -46,7 +47,7 @@ body {
     text-align: center;
 }
 
-/* section-one style  */
+/* section-I style  */
 
 .myname {
     font-size: 35px;
@@ -67,6 +68,54 @@ body {
     background-color: #9032cd;
     transition: ease-in .6s;
 }
+
+/* hire me style */
+
+.input-border-1729{
+    border-bottom: 1px solid gray !important;
+    background-color: #fef4f4 !important;
+}
+.input-border-1729:focus{
+    outline: none;
+    border-bottom: 1px solid #9032cd !important;
+}
+.hireme-shadow{
+    /* box-shadow: 2px 2px 2px 2px rgba(75, 63, 79, 0.2); */
+    background-color: #fef4f4 !important;
+}
+
+.img-hireme{
+    width: 23%;
+    height: 35%;
+}
+
+/* experience style  */
+
+.coding-programm{
+    background-color: #f2f6f7;
+    border-radius: 10%;
+}
+.product-brand{
+    background-color: #f3eaeb;
+    border-radius: 10%;
+}
+.experience-1729{
+    color: #FFC7CA;
+    font-size: 50px;
+    font-weight: 800;
+}
+.experience-para h1{
+    color: #FFC7CA;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
 
 
 /* footer  */
@@ -106,6 +155,9 @@ body {
     .visit-btn-1729 {
         font-size: 11px;
     }
+    .experience-para h1{
+        font-size: 21px;
+    }
 }
 
 /* Mobile screen width */
@@ -132,5 +184,8 @@ body {
 
     .small-1729 {
         width: 85% !important;
+    }
+    .img-hireme{
+        display: none;
     }
 }

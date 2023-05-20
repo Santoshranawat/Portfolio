@@ -1,9 +1,11 @@
 body {
     color: rgb(0 0 0 / 55%);
 }
-.container{
+
+.container {
     max-width: 1200px !important;
 }
+
 /* scroll down style  */
 
 #scrolldown {
@@ -15,17 +17,25 @@ body {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #555;
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding: 8px;
     border-radius: 4px;
-  }
-  
-  #scrolldown:hover {
-    background-color: #555;
-  }
+}
 
+#scrolldown:hover {
+    background-color: #9032cd;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    color: #9032cd;
+}
+
+p{
+    color: #555;
+}
 
 .logo {
     font-size: 40px;
@@ -35,7 +45,7 @@ body {
 
 .nav-link {
     color: rgba(0, 0, 0, .55);
-    padding: 10px 20px;
+    padding: 0px 20px;
     font-size: 20px;
     font-weight: 500;
     margin: 0px 10px;
@@ -43,25 +53,21 @@ body {
 
 .nav-link:hover {
     color: #9032cd !important;
-
+    border-bottom: 0.5px solid #9032cd;
+    transition: 1s !important;
 }
 
 .active {
-    color: #9032cd !important;
+    color: #9032cd !important ;
 
 }
 
-.bi-chat-dots-fill {
-    color: #9032cd !important;
-
+.chat-hub {
+    color: #555;
 }
 
-
-.bi-chat-dots-fill:hover {
-    color: rgba(59, 6, 42, 0.608) !important;
-    width: 30px;
-    height: 30px;
-    transition: ease-in-out .5s;
+.chat-hub:hover {
+    color: #9032cd ;
 }
 
 /* Mobile width style 
@@ -93,48 +99,78 @@ body {
     color: #DEE6EE;
 }
 
-.btn-bgcolor{
+.visit-btn-1729 {
+    position: relative;
+    border-radius: 25px;
+  }
+  .visit-btn-1729::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    -webkit-transform: scaleY(0.1);
+    transform: scaleY(0.1);
+    transition: all 0.4s;
+  }
+
+  .visit-btn-1729:hover::before {
+    opacity: 1;
+    background-color: #9032cd;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    border-radius: 25px;
+    transition: -webkit-transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity 0.4s;
+    transition: transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity;
+  }
+.btn-bgcolor {
     background-color: rgb(0 0 0 / 55%);
     color: #ffff;
 }
 
 /* hire me style */
 
-.input-border-1729{
+.input-border-1729 {
     border-bottom: 1px solid gray !important;
     background-color: #f7edf8 !important;
 }
-.input-border-1729:focus{
+
+.input-border-1729:focus {
     outline: none;
     border-bottom: 1px solid #9032cd !important;
 }
-.hireme-shadow{
+
+.hireme-shadow {
     /* box-shadow: 2px 2px 2px 2px rgba(75, 63, 79, 0.2); */
     background-color: #f7edf8 !important;
 }
 
-.img-hireme{
+.img-hireme {
     width: 23%;
     height: 35%;
 }
 
 /* experience style  */
 
-.coding-programm{
+.coding-programm {
     background-color: #f2f6f7;
     border-radius: 10%;
 }
-.product-brand{
+
+.product-brand {
     background-color: #f7edf8;
     border-radius: 10%;
 }
-.experience-1729{
-    color: #c17bf0;
+
+.experience-1729 {
     font-size: 50px;
     font-weight: 800;
 }
-.experience-para h1{
-    color: #c17bf0;
+
+.experience-para h1 {
     font-weight: 700;
 }
 
@@ -184,7 +220,8 @@ body {
     .visit-btn-1729 {
         font-size: 11px;
     }
-    .experience-para h1{
+
+    .experience-para h1 {
         font-size: 21px;
     }
 }
@@ -214,7 +251,8 @@ body {
     .small-1729 {
         width: 85% !important;
     }
-    .img-hireme{
+
+    .img-hireme {
         display: none;
     }
 }

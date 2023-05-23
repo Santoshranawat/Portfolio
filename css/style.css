@@ -83,9 +83,10 @@ p {
 
 .fixid-bgcolor-1729 {
     background-color: #f7edf8;
-    position: sticky;
+    /* position: sticky; */
     z-index: 9999;
-    top: 0;
+    /* top: 0; */
+    margin-bottom: 3%;
 }
 
 @keyframes small-1729 {

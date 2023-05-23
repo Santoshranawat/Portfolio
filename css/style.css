@@ -42,10 +42,9 @@ p {
     color: #555;
 }
 
-.logo {
-    font-size: 40px;
-    font-weight: 900;
-    color: #9032cd !important;
+.logo img {
+    width: 84px;
+    filter: opacity(0.5);
 }
 
 .nav-link {
@@ -60,11 +59,13 @@ p {
     color: #9032cd !important;
     border-bottom: 0.5px solid #9032cd;
     transition: 1s !important;
+    /* text-shadow: 10px 4px 19px rgb(247, 0, 255); */
 }
 
 .active {
     color: #9032cd !important;
-
+    /* text-shadow: 10px 4px 19px rgb(247, 0, 255); */
+    border-bottom: 0.5px solid #9032cd;
 }
 
 .chat-hub {
@@ -83,10 +84,10 @@ p {
 
 .fixid-bgcolor-1729 {
     background-color: #f7edf8;
-    /* position: sticky; */
+    position: sticky;
     z-index: 9999;
-    /* top: 0; */
-    margin-bottom: 3%;
+    top: 0;
+    margin-bottom: 2%;
 }
 
 @keyframes small-1729 {
@@ -235,10 +236,48 @@ p {
     transition: 1.5s;
 }
 
+/* .experience-here {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.0s ease, transform 1.0 ease;
+} */
 
+.bug-icon-1729 {
+    position: relative;
+    animation: bugfirst 5s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes bugfirst {
+    0%   {color:#ef9494; rotate: 90deg; left: 0px; top: 0px;}
+    35%  {color:#ef9494; rotate: 90deg; left: 200px; top: 0px;}
+    45%  {color:#ffffff; rotate: 0deg; left: 200px; top: -150px;}
+    55%  {color:#ffffff; rotate: 270deg; left: 500px; top:-500px;}
+    75%  {color:#ffffff; rotate: 270deg; left: 500px; top:10px;}
+    100% {color:#9032cd; rotate: 270deg; left: 0px; top: 0px;}
+  }
 
+.bug-icon1{
+    position: relative;
+    animation: bugsec 5s infinite;
+    animation-direction: alternate;
+}
 
-
+ 
+@keyframes bugsec {
+    0%   { rotate: 270deg; left: 0px; top: 0px;}
+    35%  {color:#9032cd; rotate: 270deg; left: -20px; top: 0px;}
+    45%  {color:#9032cd; rotate: none; left: -20px; top: 0px;}
+    65%  {color:hsl(0, 0%, 100%); rotate: none; left: -20px; top:-200px;}
+    75%  {color:#ef9494; rotate: 180deg; left: -20px; top:-200px;}
+    85%  {color:#cbc2d1; rotate: 180deg; left: -20px; top:0px;}
+    90% {color:#ef9494;rotate: 90deg; left: -20px; top: 0px;}
+    100% {color:#ef9494; rotate: 90deg; left: 0px; top: 0px;}
+  }
 
 /* footer  */
 

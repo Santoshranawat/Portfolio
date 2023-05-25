@@ -101,9 +101,9 @@ p {
 
 .fixid-bgcolor-1729 {
     background-color: #f7edf8;
-    position: sticky;
+    /* position: sticky;
     z-index: 9999;
-    top: 0;
+    top: 0; */
     margin-bottom: 2%;
 }
 
@@ -329,6 +329,7 @@ p {
 }
 
 
+<<<<<<< HEAD
 @keyframes bugsec {
     0% {
         rotate: 270deg;
@@ -393,6 +394,16 @@ p {
 }
 
 .project1729 {
+=======
+  /* .proj-section-1729{
+    background-blend-mode: color-burn;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
+  }
+   */
+  .project1729 {
+>>>>>>> 112fdb72500042da42b1628d4826d5ca50aad249
     position: relative;
 }
 
@@ -402,17 +413,31 @@ p {
     min-height: 300px;
     max-height: 300px;
     object-fit: cover;
+<<<<<<< HEAD
     border: .5px solid #ef9494;
     /* border-radius: 25px; */
 }
 
 .project-overlay-1729 {
+=======
+    border: 0.5px solid rgb(244, 28, 241);
+    border-radius: 25px;
+    /* box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2); */
+  }
+  
+  .project-overlay-1729 {
+>>>>>>> 112fdb72500042da42b1628d4826d5ca50aad249
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+<<<<<<< HEAD
     background-color: rgb(251, 200, 200);
     /* background-color: rgba(249, 54, 54, 0.4); */
+=======
+    /* background-color: #fbc8c8; */
+    background-color: rgba(122, 11, 214, 0.5);
+>>>>>>> 112fdb72500042da42b1628d4826d5ca50aad249
     background-blend-mode: color-burn;
     background-color: rgba(251, 200, 200, 0.9);
     overflow: hidden;

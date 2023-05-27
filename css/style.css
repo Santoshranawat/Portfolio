@@ -1,12 +1,25 @@
-body {
-    color: rgb(0 0 0 / 55%);
-}
-
 .container {
     max-width: 1320px !important;
 }
 
-/* scroll down style  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------------scroll down style-----------------  */
 
 #scrolldown {
     display: none;
@@ -28,20 +41,7 @@ body {
     background: rgba(235, 12, 12, 0.344);
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #555;
-}
-
-p {
-    color: #555;
-}
-
+/* -------------------------- NAvigation section style ------------------------- */
 .logo img {
     width: 84px;
     filter: opacity(0.5);
@@ -58,6 +58,7 @@ p {
     margin: 0px 10px;
     text-shadow: 1px 0px 1px rgb(123 116 116);
     padding: 4px 11px;
+    border-radius: 30px;
 }
 
 .menu-icon-1729 {
@@ -123,14 +124,12 @@ p {
     }
 }
 
-/* Mobile width style 
- */
 .nav-item {
     list-style: none;
     text-align: center;
 }
 
-/* section-I style  */
+/* ------------------------ Name section style --------------------  */
 
 .myname {
     font-size: 35px;
@@ -187,7 +186,6 @@ p {
 
 .visit-btn-1729:hover::before {
     opacity: 1;
-    /* background-color: #9032cd; */
     text-shadow: 10px 4px 19px rgb(247, 0, 255);
     background: rgb(235 12 12 / 18%);
     transition: .2s ease-in;
@@ -202,87 +200,6 @@ p {
     background-color: rgb(0 0 0 / 55%);
     color: #ffff;
 }
-
-/* hire me style */
-
-.input-border-1729 {
-    border-bottom: 1px solid gray !important;
-    background-color: #f7edf8 !important;
-}
-
-.input-border-1729:focus {
-    outline: none;
-    border-bottom: 1px solid #9032cd !important;
-}
-
-.hireme-shadow {
-    box-shadow: 20px 20px 20px rgba(75, 63, 79, 0.2);
-    background-color: #f7edf8 !important;
-}
-
-.img-hireme {
-    width: 23%;
-    height: 35%;
-}
-
-/* experience style  */
-
-.coding-programm {
-    background-color: #f2f6f7;
-    border-radius: 10%;
-}
-
-.product-brand {
-    background-color: #f7edf8;
-    border-radius: 10%;
-}
-
-.experience-1729 {
-    font-size: 50px;
-    font-weight: 800;
-}
-
-.experience-para h1 {
-    font-weight: 700;
-}
-
-.hover-sdtop-line {
-    transform: rotateY(-30deg);
-    margin-bottom: 25px;
-    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
-    border-radius: 10%;
-}
-
-.hover-sdtop-line:hover {
-    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
-    border-radius: 10%;
-    transform: rotateY(40deg);
-    transition: 1.5s;
-}
-
-.hover-sd-line {
-    transform: rotateY(30deg);
-    margin-bottom: 25px;
-    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
-    border-radius: 10%;
-}
-
-.hover-sd-line:hover {
-    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
-    border-radius: 10%;
-    transform: rotateY(-30deg);
-    transition: 1.5s;
-}
-
-/* .experience-here {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 1.0s ease, transform 1.0 ease;
-} */
 
 .bug-icon-1729 {
     position: relative;
@@ -398,6 +315,57 @@ p {
     }
 }
 
+/* -------------------------- experience style ---------------------------  */
+
+.coding-programm {
+    background-color: #f2f6f7;
+    border-radius: 10%;
+}
+
+.product-brand {
+    background-color: #f7edf8;
+    border-radius: 10%;
+}
+
+.experience-1729 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.experience-para h1 {
+    font-weight: 700;
+}
+
+.hover-sdtop-line {
+    transform: rotateY(-30deg);
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
+    border-radius: 10%;
+}
+
+.hover-sdtop-line:hover {
+    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
+    border-radius: 10%;
+    transform: rotateY(40deg);
+    transition: 1.5s;
+}
+
+.hover-sd-line {
+    transform: rotateY(30deg);
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
+    border-radius: 10%;
+}
+
+.hover-sd-line:hover {
+    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
+    border-radius: 10%;
+    transform: rotateY(-30deg);
+    transition: 1.5s;
+}
+
+/*----------------- project image section style here -----------------  */
+
 .proj-section-1729 {
     background-blend-mode: color-burn;
     background-color: rgba(0, 0, 0, 0.4);
@@ -414,8 +382,8 @@ p {
     min-height: 300px;
     max-height: 300px;
     object-fit: cover;
-    border: .5px solid #ef9494;
-    /* border-radius: 25px; */
+    box-shadow: 10px 10px 10px 5px rgba(122, 11, 214, 0.2);
+    border-radius: 5%;
 }
 
 .project-overlay-1729 {
@@ -429,6 +397,7 @@ p {
     width: 100%;
     height: 0;
     transition: .5s ease;
+    border-radius: 5%;
 }
 
 .project1729:hover .project-overlay-1729 {
@@ -441,13 +410,12 @@ p {
     bottom: -14.5%;
     width: 100%;
     padding: 10px;
-    background-color: #f0d0d0;
+    background-color: #555;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    border: 0.5px solid #ef9494;
 }
 
 .form-select {
@@ -468,15 +436,50 @@ option {
     font-size: 16px;
 }
 
-.para-proj-title{
+.para-proj-title {
     margin-bottom: 0;
     padding-bottom: 4px;
     font-size: 20px;
-    font-weight: 500;
-    border-bottom: 1px solid #9032cd;
 }
 
-/* footer  */
+.live-views-1729 {
+    color: #ffff;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.live-views-1729:hover {
+    background-color: #cbc2d1;
+    border-radius: 25px;
+    color: #000;
+    padding: 3px 10px;
+}
+
+/* ---------------------------- End -------------------------------  */
+
+/* ------------------------ hire me style ---------------------------- */
+
+.input-border-1729 {
+    border-bottom: 1px solid gray !important;
+    background-color: #f7edf8 !important;
+}
+
+.input-border-1729:focus {
+    outline: none;
+    border-bottom: 1px solid #9032cd !important;
+}
+
+.hireme-shadow {
+    box-shadow: 20px 20px 20px rgba(75, 63, 79, 0.2);
+    background-color: #f7edf8 !important;
+}
+
+.img-hireme {
+    width: 23%;
+    height: 35%;
+}
+
+/* ---------------------------- footer ----------------------------  */
 
 .footer-bgimg-color {
     background-color: rgb(247 237 248);
@@ -489,7 +492,6 @@ option {
 .footer-social-1729 div a {
     text-decoration: none;
     color: rgb(0 0 0 / 55%);
-    /* font-size: 25px; */
 }
 
 .footer-social-1729 div a:hover {
@@ -497,7 +499,7 @@ option {
     transition: ease-in-out .5s;
 }
 
-/* Table screen width */
+/* ----------------Table screen width------------------- */
 @media (min-width: 991px) and (max-width: 1023.99px) {
     .myname {
         font-size: 24px;
@@ -527,8 +529,12 @@ option {
     }
 }
 
-/* // Medium devices (tablets, 768px and up) */
+/* ---------------------Medium devices (tablets, 768px and up)------------------------ */
 @media (min-width:768px) and (max-width: 991px) {
+
+    .section-title {
+        padding: 20px !important;
+    }
 
     .visit-btn-1729 {
         font-size: 14px;
@@ -565,8 +571,29 @@ option {
     }
 }
 
-/* Mobile screen width */
+/* ---------------------------Mobile screen width----------------------------- */
 @media (min-width: 320px) and (max-width: 500.99px) {
+
+    .cta-wrap {
+        padding: 20px !important;
+    }
+
+    .cta-icon {
+        display: none;
+    }
+
+    .section-title {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .cta-top-right-shape {
+        background-image: none !important;
+    }
+
+    .cta-bottom-left-shape {
+        background-image: none !important;
+    }
 
     .form-select {
         padding: 5px 10px !important;
@@ -728,7 +755,6 @@ option {
     }
 
     .hover-sdtop-line {
-        /* transform: rotateY(30deg); */
         width: 90%;
         margin: auto;
         margin-bottom: 25px;

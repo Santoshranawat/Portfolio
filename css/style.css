@@ -100,7 +100,7 @@ a {
     animation-duration: 1.5s;
 }
 
-.fixid-bgcolor-1729 {
+header {
     background-color: #f7edf8;
     position: sticky;
     z-index: 9999;
@@ -362,6 +362,165 @@ a {
     border-radius: 10%;
     transform: rotateY(-30deg);
     transition: 1.5s;
+}
+
+/* --------------------Have A Project In Mind? -------------------- */
+
+.section-title {
+    position: relative;
+    z-index: 2;
+    margin: 83px;
+    text-align: center;
+}
+
+.cta-button-wrap {
+    position: relative;
+}
+
+.cta-top-right-shape {
+    position: absolute;
+    left: auto;
+    top: -41%;
+    right: -11%;
+    bottom: auto;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-image: linear-gradient(78.3deg, #e7eff2 8%, #f2f6f7);
+}
+
+.cta-bottom-left-shape {
+    position: absolute;
+    left: -14%;
+    top: auto;
+    right: auto;
+    bottom: -52%;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-image: linear-gradient(72.3deg, #f2f6f7 11%, #e7eff2);
+}
+
+.cta-icon {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    right: auto;
+    bottom: auto;
+    z-index: 2;
+}
+
+.cta-icon.icon-two {
+    left: 17%;
+    top: 10%;
+}
+
+.cta-icon.icon-three {
+    left: 16%;
+    top: auto;
+    right: auto;
+    bottom: 9%;
+}
+
+.cta-icon.icon-four {
+    left: auto;
+    top: auto;
+    right: 24%;
+    bottom: 23%;
+}
+
+.cta-icon.icon-five {
+    left: auto;
+    top: 15%;
+    right: 10%;
+    bottom: auto;
+}
+
+.cta-icon.icon-six {
+    left: auto;
+    top: auto;
+    right: 6%;
+    bottom: 10%;
+}
+
+.cta-wrap {
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    padding: 90px 20px 110px;
+    border-radius: 30px;
+    background-color: #f2f6f7;
+    text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .cta-wrap {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cta-wrap {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+}
+
+.service-item {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.service-item-content-wrap {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 35px;
+}
+
+.service-background-shape {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+}
+
+.service-content-wrap {
+    margin-left: 25px;
+}
+
+.mobile-icon-1729 {
+    color: #de4d4d;
+    width: 50px;
+    height: 50px;
+}
+
+.webfli-1729 {
+    color: #9a4dde;
+    width: 40px;
+    height: 40px;
+}
+
+.micro-window-1729 {
+    color: #4f12f7;
+    width: 40px;
+    height: 40px;
+}
+.uixu-icno-1729 {
+    color: #12f76a;
+    width: 40px;
+    height: 40px;
 }
 
 /*----------------- project image section style here -----------------  */

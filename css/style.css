@@ -605,6 +605,10 @@ option {
 /* ---------------------------- End -------------------------------  */
 
 /* ------------------------ hire me style ---------------------------- */
+.contact_detail_ul li{
+list-style: none;
+padding: 2% 0%;
+}
 
 .input-border-1729 {
     border-bottom: 1px solid gray !important;

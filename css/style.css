@@ -538,7 +538,7 @@ header {
 }
 
 .project1729 {
-    box-shadow: 1px 9px 5px #c8c4cd;
+    box-shadow: 0px 10px 15px #c8c4cd;
     transition: .5s ease-in-out;
     border: .5px solid transparent;
 }
